@@ -1,0 +1,131 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;  /* 15*1.5 == 22px*/
+  color: #121212;
+  background-color: #e2e2e2c0
+}
+.page{
+  width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+/*Header*/
+.header{
+  padding: 20px;
+  background-color: #121212;
+}
+.header-title{
+  margin: 0;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  text-decoration: underline 5px;
+}
+.header-subtitle{
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+  color: #fff;
+  text-align: center;
+}
+
+/*Nav*/
+.nav{
+  text-align: center;
+}
+.nav-link{
+  display: inline-block;
+  padding: 8px 12px;
+  text-decoration: none;
+  color:#12121298;
+  transition: background-color 0.3s, transform 0.2s;
+}
+.nav-link:hover{
+  background-color:#78787869;
+  transform: scale(110%);
+  transition: background-color 0.4s, transform 0.4s;
+}
+/* .nav-link:focus{
+  outline: 2px solid gray;
+} */
+
+/*Content*/
+.content{
+  padding: 20px;
+}
+.content-title{
+  font-size: 24px;
+  margin: 0 0 15px;
+  color: #5b5b5b;
+  text-decoration: underline;
+}
+.content-text{
+  margin-bottom: 20px;
+}
+.read-more{
+  color:#12121298;
+  text-decoration: none;
+}
+.read-more:hover{
+  text-decoration: underline;
+}
+
+/*Article*/
+.article{
+  border-bottom: 1px solid #181818;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  text-align: justify;
+}
+.article-title-link{
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: inherit;
+}
+.read-more-news{
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #12121298;
+  text-decoration: none;
+}
+.read-more-news:hover{
+  text-decoration: underline;
+}
+
+/*footer*/
+.footer{
+  text-align: center;
+  color: #fff;
+  background-color: #121212;
+  padding: 20px;
+}
+.designed{
+  font-weight: normal;
+}
+.telegram-logo{
+  width: 50px;
+}
+
+/*About page*/
+.author{
+  border-top: 1px solid #121212;
+  border-bottom: 1px solid #121212;
+}
+.git{
+  color: #404040;
+  
+}
+.git:hover{
+  text-decoration-style: wavy;
+}
+
+/*News*/
+.intel-tests{
+  text-align: center;
+}
+
